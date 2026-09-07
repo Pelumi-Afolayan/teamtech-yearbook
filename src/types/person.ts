@@ -4,3 +4,10 @@ export interface Person {
   position: string
   photoUrl: string
 }
+
+export interface Graduate {
+  id: string
+  name: string
+  unit: string
+  photoUrl: string
+}
