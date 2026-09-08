@@ -6,6 +6,9 @@ import GradClass from './components/sections/GradClass'
 import DeptStructure from './components/sections/DeptStructure'
 import Units from './components/sections/Units'
 import Memories from './components/sections/Memories'
+import Awards from './components/sections/Awards'
+import Gratitude from './components/sections/Gratitude'
+import NextChapter from './components/sections/NextChapter'
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         <Executives />
         <GradClass />
         <Memories />
+        <Awards />
+        <Gratitude />
+        <NextChapter />
       </main>
     </>
   )
