@@ -5,6 +5,7 @@ import Executives from './components/sections/Executives'
 import GradClass from './components/sections/GradClass'
 import DeptStructure from './components/sections/DeptStructure'
 import Units from './components/sections/Units'
+import Memories from './components/sections/Memories'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Units />
         <Executives />
         <GradClass />
+        <Memories />
       </main>
     </>
   )
