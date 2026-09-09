@@ -104,7 +104,7 @@ export const units: Unit[] = [
       'Shapes raw media into finished stories through content development, editing and post-production for Chapel platforms.',
     leaders: [
       {
-        name: 'To Be Added',
+        name: 'Sheke Bawo',
         role: 'Head of Content Team',
       },
       {

@@ -62,4 +62,13 @@ export const awards: Award[] = [
       'Most_Dedicated_in_Content_Team_-_Sowechukwu_Ogbonnaya'
     ),
   },
+  {
+  id: 'award-7',
+  title: 'Outstanding Contribution',
+  recipient: 'Ifeanyichukwu Jane',
+  unit: 'Sound Unit',
+  photoUrl: awardPhoto(
+    'Ifeanyichukwu_Jane_-_Outstanding_contribution_in_sound_unit'
+  ),
+},
 ]

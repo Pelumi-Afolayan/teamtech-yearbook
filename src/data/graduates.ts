@@ -257,4 +257,26 @@ export const graduates: Graduate[] = [
     unit: 'Sound',
     photoUrl: graduatePhoto('Babatope_Ayomide_-_Sound'),
   },
+  {
+  id: 'grad-41',
+  name: 'Ifeanyichukwu Jane',
+  unit: 'Sound',
+  photoUrl: graduatePhoto('Ifeanyichukwu_Jane_-_Sound'),
+},
+{
+  id: 'grad-42',
+  name: 'Akinyemi Oluwakorede',
+  unit: 'Videography',
+  photoUrl: graduatePhoto(
+    'Akinyemi_Oluwakorede_-_Videography'
+  ),
+},
+{
+  id: 'grad-43',
+  name: 'Ogunsola Oluwafisayo',
+  unit: 'Livestream',
+  photoUrl: graduatePhoto(
+    'Ogunsola_Oluwafisayo_-_Livestream'
+  ),
+},
 ]

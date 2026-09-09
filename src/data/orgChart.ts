@@ -150,11 +150,12 @@ export const orgChart: OrgLevel[] = [
           'Sowechukwu_Ogbonnaya_-_Lead_Editor_-_Post_Production'
         ),
       },
-      {
-        id: 'content-head',
-        name: 'To Be Added',
+     {
+        id: 'sheke-bawo',
+        name: 'Sheke Bawo',
         position: 'Head of Content Team',
         unit: 'Content Team',
+        photoUrl: portrait('Sheke_Bawo_-_Head_Content_Team'),
       },
     {
       id: 'ojo-heritage',

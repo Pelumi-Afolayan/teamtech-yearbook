@@ -1,32 +1,21 @@
-import Hero from './components/sections/Hero'
-import OurStory from './components/sections/OurStory'
-import HodMessage from './components/sections/HodMessage'
-import Executives from './components/sections/Executives'
-import GradClass from './components/sections/GradClass'
-import DeptStructure from './components/sections/DeptStructure'
-import Units from './components/sections/Units'
-import Memories from './components/sections/Memories'
-import Awards from './components/sections/Awards'
-import Gratitude from './components/sections/Gratitude'
-import NextChapter from './components/sections/NextChapter'
+import { Route, Routes } from 'react-router'
+import Navbar from './components/layout/Navbar'
+import HomePage from './pages/HomePage'
+import GraduatesPage from './pages/GraduatesPage'
+import MemoriesPage from './pages/MemoriesPage'
+import ScrollToHash from './components/shared/ScrollToHash'
 
 function App() {
   return (
     <>
-      <Hero />
+      <Navbar />
+      <ScrollToHash />
 
-      <main id="yearbook-content">
-        <OurStory />
-        <HodMessage />
-        <DeptStructure />
-        <Units />
-        <Executives />
-        <GradClass />
-        <Memories />
-        <Awards />
-        <Gratitude />
-        <NextChapter />
-      </main>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/graduates" element={<GraduatesPage />} />
+        <Route path="/memories" element={<MemoriesPage />} />
+      </Routes>
     </>
   )
 }
