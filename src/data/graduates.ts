@@ -279,4 +279,16 @@ export const graduates: Graduate[] = [
     'Ogunsola_Oluwafisayo_-_Livestream'
   ),
 },
-]
+].sort((firstGraduate, secondGraduate) => {
+  const featuredName = 'Afolayan Jesupelumi'
+
+  if (firstGraduate.name === featuredName) {
+    return -1
+  }
+
+  if (secondGraduate.name === featuredName) {
+    return 1
+  }
+
+  return firstGraduate.name.localeCompare(secondGraduate.name)
+})
