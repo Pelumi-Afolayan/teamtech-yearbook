@@ -41,7 +41,7 @@ function Hero() {
         </p>
 
         <a
-          href="#yearbook-content"
+          href="#our-story"
           className="mt-10 inline-flex items-center gap-3 rounded-full bg-[#c90016] px-7 py-4 text-xs font-bold uppercase tracking-[0.18em] text-white transition duration-300 hover:bg-white hover:text-[#00344d]"
         >
           Enter Yearbook
