@@ -10,24 +10,20 @@ import Awards from '../components/sections/Awards'
 import Gratitude from '../components/sections/Gratitude'
 import NextChapter from '../components/sections/NextChapter'
 
-
 function HomePage() {
   return (
     <>
       <Hero />
-
-      <main id="yearbook-content">
-        <OurStory />
-        <HodMessage />
-        <DeptStructure />
-        <Units />
-        <Executives />
-        <GradClass />
-        <MemoriesPreview />
-        <Awards />
-        <Gratitude />
-        <NextChapter />
-      </main>
+      <OurStory />
+      <HodMessage />
+      <DeptStructure />
+      <Units />
+      <Executives />
+      <GradClass />
+      <MemoriesPreview />
+      <Awards />
+      <Gratitude />
+      <NextChapter />
     </>
   )
 }

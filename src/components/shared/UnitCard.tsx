@@ -42,9 +42,7 @@ function UnitCard({ unit, number }: UnitCardProps) {
                 key={`${leader.name}-${leader.role}`}
                 className="flex flex-col justify-between gap-1 sm:flex-row sm:items-center sm:gap-4"
               >
-                <p className="text-sm font-bold">
-                  {leader.name}
-                </p>
+                <p className="text-sm font-bold">{leader.name}</p>
 
                 <p className="text-xs text-[#657d88] sm:text-right">
                   {leader.role}
