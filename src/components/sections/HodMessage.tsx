@@ -52,7 +52,7 @@ function HodMessage() {
 
         <Reveal direction="right" delay={0.15}>
           <div>
-            <blockquote className="border-l-4 border-[#ef3340] pl-6 font-['Playfair_Display_Variable'] text-3xl font-semibold italic leading-tight text-[#f5ecdc] sm:text-4xl">
+            <blockquote className="border-l-4 border-[#ef3340] pl-6 font-sans text-3xl font-semibold italic leading-tight text-[#f5ecdc] sm:text-4xl">
               “{hodMessage.pullQuote}”
             </blockquote>
 
@@ -68,7 +68,7 @@ function HodMessage() {
 
             <div className="mt-10 h-[3px] w-16 bg-[#ef3340]" />
 
-            <p className="mt-6 font-['Playfair_Display_Variable'] text-2xl font-semibold italic text-[#f5ecdc]">
+            <p className="mt-6 font-sans text-2xl font-semibold italic text-[#f5ecdc]">
               Jesupelumi Afolayan
             </p>
           </div>

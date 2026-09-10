@@ -35,7 +35,7 @@ function OurStory() {
             </p>
 
             <div className="mt-10 border-l-4 border-[#c90016] pl-6">
-              <blockquote className="font-['Playfair_Display_Variable'] text-2xl font-medium italic leading-relaxed text-[#00344d] sm:text-3xl">
+              <blockquote className="font-sans text-2xl font-medium italic leading-relaxed text-[#00344d] sm:text-3xl">
                 “Whatever your hand finds to do, do it with all your might...”
               </blockquote>
 
@@ -71,7 +71,7 @@ function OurStory() {
                 Class Theme
               </p>
 
-              <p className="mt-1 font-['Playfair_Display_Variable'] text-2xl font-semibold italic text-[#f5ecdc]">
+              <p className="mt-1 font-sans text-2xl font-semibold italic text-[#f5ecdc]">
                 Legacy of Lights
               </p>
             </div>

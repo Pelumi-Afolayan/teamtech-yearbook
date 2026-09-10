@@ -116,7 +116,7 @@ function Gratitude() {
               remain with us.
             </p>
 
-            <blockquote className="mt-10 border-l-4 border-[#ef3340] pl-6 font-['Playfair_Display_Variable'] text-2xl font-semibold italic leading-relaxed text-[#f5ecdc] sm:text-3xl">
+            <blockquote className="mt-10 border-l-4 border-[#ef3340] pl-6 font-sans text-2xl font-semibold italic leading-relaxed text-[#f5ecdc] sm:text-3xl">
               “Every service, every setup, every late night, every camera,
               every sound check, every edit and every unseen moment became
               part of the story we now celebrate.”

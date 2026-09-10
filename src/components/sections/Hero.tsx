@@ -36,7 +36,7 @@ function Hero() {
           Graduating Class of 2026
         </p>
 
-        <p className="mt-3 font-['Playfair_Display_Variable'] text-2xl font-semibold italic text-[#f5ecdc] sm:text-3xl">
+        <p className="mt-3 font-sans text-2xl font-semibold italic text-[#f5ecdc] sm:text-3xl">
             Legacy of Lights
         </p>
 

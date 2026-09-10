@@ -71,7 +71,7 @@ function NextChapter() {
         transition={{ duration: 1 }}
         className="bg-[#00344d] px-6 py-16 text-center text-white"
       >
-        <p className="font-['Playfair_Display_Variable'] text-2xl font-semibold italic leading-relaxed text-[#f5ecdc] sm:text-4xl">
+        <p className="font-sans text-2xl font-semibold italic leading-relaxed text-[#f5ecdc] sm:text-4xl">
           “Built by those before us.
           <span className="block">
             Carried forward by those who come after us.”
