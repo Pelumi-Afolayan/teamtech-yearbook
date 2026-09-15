@@ -1,4 +1,4 @@
-import type { IncomingUnit } from '../types/incomingUnits'
+import type { IncomingUnit } from '../types/incomingUnit'
 import { getCloudinaryUrl } from '../lib/cloudinary'
 
 const leaderPhoto = (publicId: string) =>
