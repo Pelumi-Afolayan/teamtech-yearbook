@@ -54,22 +54,24 @@ export const incomingUnits: IncomingUnit[] = [
         name: 'To Be Added',
         position: 'Head of Livestream',
       },
+
       {
         id: 'livestream-assistant-1',
-        name: 'Ojo Kehinde',
-        position: 'Assistant Head of Livestream I',
-        photoUrl: leaderPhoto(
-          'Assistant_Head_of_Unit_1_-_Livestream'
-        ),
-      },
-      {
-        id: 'livestream-assistant-2',
         name: 'Adewunmi Jesupelumi',
-        position: 'Assistant Head of Livestream II',
+        position: 'Assistant Head of Livestream I',
         photoUrl: leaderPhoto(
           'Adewunmi_Jesupelumi_-_Assistant_Head_of_Unit_Livestream_2'
         ),
       },
+      {
+        id: 'livestream-assistant-2',
+        name: 'Ojo Kehinde',
+        position: 'Assistant Head of Livestream II',
+        photoUrl: leaderPhoto(
+          'AHOU_livestream_ii_-_Ojo_kehinde'
+        ),
+      },
+      
     ],
   },
   {
@@ -78,8 +80,11 @@ export const incomingUnits: IncomingUnit[] = [
     leaders: [
       {
         id: 'photography-head',
-        name: 'To Be Added',
+        name: 'Boboye Katherine',
         position: 'Head of Photography',
+        photoUrl: leaderPhoto(
+          'Boboye_Katherine_-_Head_Photography'
+        ),
       },
       {
         id: 'photography-assistant',
