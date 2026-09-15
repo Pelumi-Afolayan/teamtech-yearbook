@@ -51,8 +51,11 @@ export const incomingUnits: IncomingUnit[] = [
     leaders: [
       {
         id: 'livestream-head',
-        name: 'To Be Added',
+        name: 'Adebayo Faith',
         position: 'Head of Livestream',
+        photoUrl: leaderPhoto(
+          'Adebayo_Faith_-_head_of_livstream'
+        ),
       },
 
       {
@@ -153,10 +156,13 @@ export const incomingUnits: IncomingUnit[] = [
         ),
       },
       {
-        id: 'content-assistant',
-        name: 'To Be Added',
-        position: 'Assistant Head of Content',
-      },
+      id: 'content-assistant',
+      name: 'Ojo Heritage',
+      position: 'Assistant Head of Content',
+      photoUrl: leaderPhoto(
+        'Ojo_Heritage_-_Assistant_Head_Content_Team'
+      ),
+    },
       {
         id: 'post-production-lead',
         name: 'Emmanuel Williams',

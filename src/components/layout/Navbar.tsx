@@ -38,6 +38,11 @@ const navigationLinks = [
     to: '/#awards',
     sectionId: 'awards',
   },
+{
+    label: 'New Executives',
+    to: '/#next-chapter',
+    sectionId: 'next-chapter',
+  },
 ]
 
 function Navbar() {
@@ -136,7 +141,7 @@ function Navbar() {
           Team <span className="text-[#ef3340]">Tech</span>
         </Link>
 
-        <div className="hidden items-center gap-6 md:flex">
+        <div className="hidden items-center gap-4 lg:flex">
           {navigationLinks.map((link) => {
             const active = isLinkActive(link)
 
@@ -172,7 +177,7 @@ function Navbar() {
           aria-expanded={isMenuOpen}
           aria-controls="mobile-navigation"
           onClick={() => setIsMenuOpen((current) => !current)}
-          className="relative z-50 flex h-11 w-11 flex-col items-center justify-center gap-[5px] text-white md:hidden"
+          className="relative z-50 flex h-11 w-11 flex-col items-center justify-center gap-[5px] text-white lg:hidden"
         >
           <span
             className={`block h-[2px] w-6 bg-current transition duration-300 ${
@@ -213,7 +218,7 @@ function Navbar() {
             transition={{
               duration: 0.3,
             }}
-            className="overflow-hidden border-t border-white/10 bg-[#00344d] md:hidden"
+            className="overflow-hidden border-t border-white/10 bg-[#00344d] lg:hidden"
           >
             <div className="mx-auto flex max-w-7xl flex-col px-6 py-5">
               {navigationLinks.map((link, index) => {
