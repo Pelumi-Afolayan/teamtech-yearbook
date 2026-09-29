@@ -29,6 +29,7 @@ export const orgChart: OrgLevel[] = [
         id: 'pastor-jerry',
         name: 'Pastor Jerry',
         position: 'Senior Technical Coordinator',
+        photoUrl: portrait('Pastor_Jerry'),
       },
       {
         id: 'mr-paul',
