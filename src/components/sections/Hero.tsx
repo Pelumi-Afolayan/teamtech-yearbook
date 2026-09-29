@@ -6,7 +6,7 @@ function Hero() {
   const heroMemories = useMemo(() => {
     return [...memories]
       .sort(() => Math.random() - 0.5)
-      .slice(0, 15)
+      .slice(0, 25)
   }, [])
 
   const imageColumns = [
@@ -22,7 +22,7 @@ function Hero() {
     >
       {/* Scrolling photo collage */}
       <div
-        className="pointer-events-none absolute inset-0 grid grid-cols-3 gap-4 px-4 py-6 sm:gap-10 sm:px-12 sm:py-8 lg:gap-16 lg:px-28"
+       className="pointer-events-none absolute inset-0 grid grid-cols-3 gap-4 px-4 py-6 sm:gap-10 sm:px-12 sm:py-8 lg:left-1/2 lg:w-[72%] lg:-translate-x-1/2 lg:gap-16 lg:px-12"
         aria-hidden="true"
       >
         {imageColumns.map((column, columnIndex) => {
