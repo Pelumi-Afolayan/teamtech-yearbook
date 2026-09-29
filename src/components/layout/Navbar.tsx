@@ -38,10 +38,16 @@ const navigationLinks = [
     to: '/#awards',
     sectionId: 'awards',
   },
-{
+  
+  {
     label: 'New Executives',
     to: '/#next-chapter',
     sectionId: 'next-chapter',
+  },
+
+  { label: 'Guestbook',
+    to: '/#guestbook',
+    sectionId: 'guestbook',
   },
 ]
 

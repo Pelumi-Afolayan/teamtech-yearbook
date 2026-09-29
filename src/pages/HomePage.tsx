@@ -9,6 +9,7 @@ import MemoriesPreview from '../components/sections/MemoriesPreview'
 import Awards from '../components/sections/Awards'
 import Gratitude from '../components/sections/Gratitude'
 import NextChapter from '../components/sections/NextChapter'
+import Guestbook from '../components/sections/Guestbook' 
 
 function HomePage() {
   return (
@@ -24,6 +25,7 @@ function HomePage() {
       <Awards />
       <Gratitude />
       <NextChapter />
+      <Guestbook />
     </>
   )
 }
