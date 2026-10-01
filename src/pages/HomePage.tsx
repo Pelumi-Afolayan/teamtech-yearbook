@@ -10,6 +10,7 @@ import Awards from '../components/sections/Awards'
 import Gratitude from '../components/sections/Gratitude'
 import NextChapter from '../components/sections/NextChapter'
 import Guestbook from '../components/sections/Guestbook' 
+import CreativeSupport from '../components/sections/CreativeSupport'
 
 function HomePage() {
   return (
@@ -19,6 +20,7 @@ function HomePage() {
       <HodMessage />
       <DeptStructure />
       <Units />
+      <CreativeSupport />
       <Executives />
       <GradClass />
       <MemoriesPreview />
